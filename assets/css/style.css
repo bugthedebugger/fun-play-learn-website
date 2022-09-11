@@ -1,0 +1,9 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.nav-bar-shadow {
+  box-shadow: -1px -9px 35px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px -9px 35px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -9px 35px 0px rgba(0, 0, 0, 0.75);
+}

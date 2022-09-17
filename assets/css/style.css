@@ -1,9 +1,112 @@
-* {
-  font-family: 'Inter', sans-serif;
+@import url("https://fonts.google.apis.com/css?family=Inter:400,700,500,600");
+
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --eerie-black: rgba(28, 28, 28, 1);
+  --dove-gray: rgba(112, 112, 112, 1);
+  --mischka: rgba(206, 211, 220, 1);
+  --porcelain: rgba(239, 242, 245, 1);
+  --white: rgba(255, 255, 255, 1);
+
+  --font-size-xs: 14px;
+  --font-size-s: 16px;
+  --font-size-m: 18px;
+  --font-size-l: 24px;
+  --font-size-xl: 26px;
+  --font-size-xxl: 32px;
+  --font-size-xxxl: 64px;
+
+  --font-family-inter: "Inter";
 }
 
-.nav-bar-shadow {
-  box-shadow: -1px -9px 35px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -1px -9px 35px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -1px -9px 35px 0px rgba(0, 0, 0, 0.75);
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.inter-semi-bold-eerie-black-26px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-style: normal;
+}
+
+.inter-semi-bold-eerie-black-20px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-inter);
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.inter-normal-eerie-black-16px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-medium-dove-gray-18px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inter-mediumm-eerie-black-14px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inter-semi-bold-eerie-black-32px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-weight: 600;
+  font-style: normal;
+}
+
+.inter-bold-eerie-black-64px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxl);
+  font-weight: 700;
+  font-style: normal;
+  line-height: 76.8px;
+}
+
+/* Styles */
+@media (min-width: 992px) {
+  .page-margin {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+}
+
+.height-100vh {
+  height: 100vh;
+}
+
+.hue-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.hue-container-image {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+  filter: blur(80.5px);
+}
+
+.mission-m-t {
+  margin-top: 15vh;
 }

@@ -356,3 +356,7 @@
   background: #dfdfe3;
   border-radius: 16px;
 }
+
+.pos-relative {
+  position: relative;
+}

@@ -83,23 +83,314 @@
     </div>
     <!-- NAV BAR END -->
 
-    <!-- Content Start -->
-    <div class="height-100vh">
+    <!-- Tag line Start -->
+    <div class="pb-5 mb-5">
       <img class="hue-container-image" src="./assets/images/background.svg" />
       <div class="container">
         <p class="inter-bold-eerie-black-64px mission-m-t">
-          Building transparent learning <br />experience for your kids
+          Safe collaborative learning environment for children
         </p>
 
-        <p class="inter-semi-bold-eerie-black-26px mt-5 pt-5 pr-5 mr-5">
-          Our mission with Lorem is to solve current problems with to-do list
-          apps by a more humane design approach and a completely natural user
-          experience. We want to bring satisfaction to every day use of to-do
-          lists and not feeling it like a chore anymore.
+        <p class="pt-5 pr-5 mr-5 mb-5">
+          <span class="inter-semi-bold-eerie-black-26px">
+            Fun Play Learn is a community based learning platform <br />
+            designed to help kids thrive in communities and <br />
+            collaborative environments.
+          </span>
+          <span class="inter-semi-bold-dove-gray-26px">
+            Our goal is to empower the <br />
+            kids and youth for next generation of leadership and <br />
+            innovation
+          </span>
         </p>
+        <a href="#mission">
+          <button class="outline-button">
+            <span class="icon-container">
+              <i
+                class="fa fa-arrow-down inter-semi-bold-dove-gray-20px"
+                aria-hidden="true"
+              ></i>
+            </span>
+            <span class="outline-button-label">LEARN MORE</span>
+          </button>
+        </a>
       </div>
     </div>
-    <!-- Content End -->
+    <!-- Tag line End -->
+
+    <!-- Mission statement start -->
+    <div id="mission" class="container mt-5 pt-5 mb-5 pb-5">
+      <span class="inter-bold-eerie-black-32px">A small</span><br />
+      <span class="inter-bold-eerie-black-150px">Mission</span>
+      <span class="inter-bold-eerie-black-24px">for our team</span><br />
+      <span class="inter-bold-eerie-black-26px"
+        >a large step for the future generations</span
+      >
+      <div class="row mb-5">
+        <div class="col-sm-5 offset-sm-7">
+          <div class="fpl-card pt-3 pb-3 pl-3 pl-3">
+            <div class="fpl-quote-ellipse">
+              <i
+                class="fa-solid fa-quote-left ml-auto mr-auto inter-normal-dove-gray-24px"
+              ></i>
+            </div>
+            <span class="inter-medium-dove-gray-18px">
+              We seek to create communities of youth <br />
+              that want to support one another <br />
+              and grow together.
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5 pt-5">
+        <div class="col-sm-10">
+          <div class="fpl-container-gray-bg pl-4 pr-5 pt-5 pb-5">
+            <div class="fpl-icon-offset-container">
+              <img
+                class="ml-auto mr-auto mt-auto mb-auto"
+                src="./assets/images/rainbow.svg"
+              />
+            </div>
+            <div class="row">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-10">
+                <h1 class="inter-semi-bold-eerie-black-26px">
+                  Creating a coopertaive and fun learning environment
+                </h1>
+                <span class="fpl-card-subtitle">
+                  For young children, we seek to bring excitement and fun to the
+                  classroom. <br />
+                  Into our games we hide little opportunities to learn. We seek
+                  to help children <br />
+                  learn from each other by playing cooperative rather than
+                  competitive games <br />
+                  and try to have older children guide them in this process.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 mb-5 pt-5">
+        <div class="col-sm-10 offset-sm-2">
+          <div class="fpl-container-gray-bg pl-4 pr-5 pt-5 pb-5">
+            <div class="fpl-icon-offset-container">
+              <img
+                class="ml-auto mr-auto mt-auto mb-auto"
+                src="./assets/images/namaste.svg"
+              />
+            </div>
+            <div class="row">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-10">
+                <h1 class="inter-semi-bold-eerie-black-26px">
+                  Shaping the next generation of leaders
+                </h1>
+                <span class="fpl-card-subtitle">
+                  For the older teenagers, our goal is to provide them with a
+                  channel for their <br />
+                  energy to be used constructively, to help them with
+                  organisational and <br />
+                  planning skills, but also to care for others. We want them to
+                  look not at what <br />
+                  they cannot do, but at what they CAN do.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Mission statement end -->
+
+    <!-- Latest Developments start -->
+    <div class="container mt-5 mb-5 pt-5">
+      <h1 class="inter-bold-eerie-black-64px mb-3">Latest developments</h1>
+      <div class="row mb-5">
+        <div class="col-sm-8">
+          <span class="inter-semi-bold-eerie-black-26px">
+            Find out what children have been upto recently. </span
+          ><br />
+          <span class="inter-semi-bold-dove-gray-26px">
+            Latest snapshots from the field
+          </span>
+        </div>
+        <div class="col-sm-4">
+          <div class="row">
+            <button
+              onclick="onLatestPrev()"
+              class="circular-button mr-3 bg-white"
+            >
+              <i
+                class="fa fa-chevron-right mr-auto ml-auto mt-auto mb-auto"
+                aria-hidden="true"
+              ></i>
+            </button>
+            <button onclick="onLatestNext()" class="circular-button bg-white">
+              <i
+                class="fa fa-chevron-left mr-auto ml-auto mt-auto mb-auto"
+                aria-hidden="true"
+              ></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <section id="image-carousel" class="splide">
+        <div class="splide__arrows">
+          <button
+            class="splide__arrow splide__arrow--prev"
+            style="display: none"
+          >
+            Prev
+          </button>
+          <button
+            class="splide__arrow splide__arrow--next"
+            style="display: none"
+          >
+            Next
+          </button>
+        </div>
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="img-container pt-5 pb-5 pr-5">
+                <img
+                  class="img-container"
+                  src="./assets/images/example-image-1.webp"
+                />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="img-container pt-5 pb-5 pr-5">
+                <img
+                  class="img-container"
+                  src="./assets/images/example-image-2.webp"
+                />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="img-container pt-5 pb-5 pr-5">
+                <img
+                  class="img-container"
+                  src="./assets/images/example-image-1.webp"
+                />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="img-container pt-5 pb-5 pr-5">
+                <img
+                  class="img-container"
+                  src="./assets/images/example-image-2.webp"
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <!-- Latest Developments End -->
+
+    <!-- Game and Activities start -->
+    <div class="container mt-5 mb-5 pb-5 pt-5">
+      <h1 class="inter-bold-eerie-black-64px">
+        Activities designed to <br />excel thinking
+      </h1>
+      <div class="row mt-5 mb-5">
+        <div class="col-lg-4">
+          <span class="inter-bold-eerie-black-24px">
+            Our volunteers are constantly making activities fun and group effort
+            to help children reach their potential
+          </span>
+        </div>
+        <div clas="col-lg-4">
+          <div class="inter-medium-dove-gray-18px mb-3 ml-5 pl-5">
+            The only platform lets you customize <br />
+            learning experience for your children
+          </div>
+          <div class="inter-semi-bold-eerie-black-32px ml-5 pl-5">
+            Explore Activities
+          </div>
+        </div>
+        <div class="col-lg-4"></div>
+      </div>
+      <!-- Activities card section -->
+      <section>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card fpl-border-radius">
+              <img
+                class="card-img-top"
+                src="./assets/images/example-image-1.webp"
+              />
+              <div
+                class="card-body bg-card-gray d-flex flex-row justify-content-between"
+              >
+                <div class="p2 inter-semi-bold-white-20px">Title</div>
+                <div class="p2 inter-semi-bold-white-20px">
+                  <button
+                    class="white-btn inter-mediumm-eerie-black-14px pl-3 pr-3"
+                  >
+                    Learn More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card fpl-border-radius">
+              <img
+                class="card-img-top"
+                src="./assets/images/example-image-1.webp"
+              />
+              <div
+                class="card-body bg-card-gray d-flex flex-row justify-content-between"
+              >
+                <div class="p2 inter-semi-bold-white-20px">Title</div>
+                <div class="p2 inter-semi-bold-white-20px">
+                  <button
+                    class="white-btn inter-mediumm-eerie-black-14px pl-3 pr-3"
+                  >
+                    Learn More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Activities card section end -->
+    </div>
+    <!-- Game and Activities end -->
+
+    <!-- Leadership start -->
+    <div class="container mt-5 pt-5 mb-5 pb-5">
+      <h1 class="inter-bold-eerie-black-64px mb-2">Leadership</h1>
+      <h2 class="inter-semi-bold-eerie-black-26px" style="width: 40vw">
+        Behind the scenes, we have leaders from diverse backgrounds helping
+        drive our mission
+      </h2>
+      <section class="mt-5 pt5">
+        <section id="leadership-carousel" class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="fpl-avatar-card mt-5"></div>
+              </li>
+              <li class="splide__slide">
+                <div class="fpl-avatar-card mt-5"></div>
+              </li>
+              <li class="splide__slide">
+                <div class="fpl-avatar-card mt-5"></div>
+              </li>
+              <li class="splide__slide">
+                <div class="fpl-avatar-card mt-5"></div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </div>
+    <!-- Leadership End -->
 
     <!-- Page scripts -->
     <script
@@ -123,5 +414,54 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.0.17/js/splide.min.js"
+      integrity="sha512-RYS55IMzyuLAo0U5iW6X88HjwzQjpd8tytnL+KdfMDVVo8QtsLboBbat8oglcZibVzlsvC+Co2KLSSX+9vOwTg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.0.17/css/splide-core.min.css"
+      integrity="sha512-sSH56LW/WydgZhLwaC633Xapzlktadsoj0oeHNU2r/Nxg1pnMYFwZpRbJWvD1y5wkug7zAl9UmwTxOrzXLaCVA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.0.17/css/splide.min.css"
+      integrity="sha512-9bpHZQGA5x9Jo7G8d7ldTcmMwpk/4IBNywu2rluH/uSxji7Z2wY1Y9v/1IUVWqsGINlrC/QPIZ+YgXat67LUiQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script>
+      const splide = new Splide("#image-carousel", {
+        perPage: 2,
+        breakpoints: {
+          640: {
+            perPage: 1,
+          },
+        },
+      }).mount();
+
+      const onLatestNext = () => {
+        splide.go(">");
+      };
+
+      const onLatestPrev = () => {
+        splide.go("<");
+      };
+    </script>
+    <script>
+      const leaderShipSplide = new Splide("#leadership-carousel", {
+        perPage: 3,
+        breakpoints: {
+          640: {
+            perPage: 1,
+          },
+        },
+      }).mount();
+    </script>
+    <!-- Page scripts end -->
   </body>
 </html>
